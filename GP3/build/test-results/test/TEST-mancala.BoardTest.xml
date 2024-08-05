@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mancala.BoardTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2023-12-30T17:40:36" hostname="CIS2430" time="0.038">
+  <properties/>
+  <testcase name="testGetNumStones()" classname="mancala.BoardTest" time="0.018"/>
+  <testcase name="tesetResetBoard()" classname="mancala.BoardTest" time="0.001"/>
+  <testcase name="testDistributeStonesForEmptyBoard()" classname="mancala.BoardTest" time="0.002"/>
+  <testcase name="testIsSideEmpty()" classname="mancala.BoardTest" time="0.001"/>
+  <testcase name="testRegisterPlayers()" classname="mancala.BoardTest" time="0.002"/>
+  <testcase name="testCaptureStones()" classname="mancala.BoardTest" time="0.002"/>
+  <testcase name="testDistributeStonesInitializedBoard()" classname="mancala.BoardTest" time="0.001"/>
+  <testcase name="testDistributeStonesReachedStore()" classname="mancala.BoardTest" time="0.001"/>
+  <testcase name="distributeStonesOppositeSide()" classname="mancala.BoardTest" time="0.0"/>
+  <testcase name="testDistributeStonesInvalidPit()" classname="mancala.BoardTest" time="0.002"/>
+  <testcase name="testWithInvalidPitPositionThirteen()" classname="mancala.BoardTest" time="0.0"/>
+  <testcase name="testIsSideNotEmpty()" classname="mancala.BoardTest" time="0.0"/>
+  <testcase name="testWithInvalidPitPositionZero()" classname="mancala.BoardTest" time="0.001"/>
+  <testcase name="testIsSideNotEmptyForOpponent()" classname="mancala.BoardTest" time="0.001"/>
+  <system-out><![CDATA[CAPTURE SUCCESSFUL!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2023-11-26T06:52:43.492">
+<file name="/course/GP2/GP3/src/test/java/mancala/BoardTest.java">
+<violation beginline="1" endline="186" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Code Style" package="mancala" class="BoardTest" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#toomanystaticimports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="13" endline="185" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="mancala" class="BoardTest" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="13" endline="185" begincolumn="8" endcolumn="1" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="13" endline="185" begincolumn="24" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="mancala" class="BoardTest" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="22" endline="28" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testGetNumStones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="24" endline="24" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testGetNumStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pitNum' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="9" endcolumn="30" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testGetNumStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesExpected' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testGetNumStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesAtPitNum' could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testGetNumStones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="31" endline="34" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testWithInvalidPitPositionZero" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="32" endline="34" begincolumn="13" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="testWithInvalidPitPositionZero" variable="pitNum" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'pitNum' (lines '32'-'34').
+</violation>
+<violation beginline="32" endline="32" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testWithInvalidPitPositionZero" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pitNum' could be declared final
+</violation>
+<violation beginline="37" endline="40" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testWithInvalidPitPositionThirteen" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="38" endline="40" begincolumn="13" endcolumn="23" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="testWithInvalidPitPositionThirteen" variable="pitNum" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'pitNum' (lines '38'-'40').
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testWithInvalidPitPositionThirteen" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pitNum' could be declared final
+</violation>
+<violation beginline="43" endline="51" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testIsSideEmpty" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="47" endline="47" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testIsSideEmpty" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pitNum' could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testIsSideEmpty" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'isEmpty' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="9" endcolumn="18" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testIsSideEmpty" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="54" endline="63" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testIsSideNotEmpty" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="60" endline="60" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testIsSideNotEmpty" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pitNum' could be declared final
+</violation>
+<violation beginline="61" endline="61" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testIsSideNotEmpty" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'isEmpty' could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="9" endcolumn="19" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testIsSideNotEmpty" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="66" endline="75" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testIsSideNotEmptyForOpponent" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="72" endline="72" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testIsSideNotEmptyForOpponent" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'pitNum' could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testIsSideNotEmptyForOpponent" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'isEmpty' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="9" endcolumn="19" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testIsSideNotEmptyForOpponent" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="78" endline="95" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="78" endline="95" begincolumn="12" endcolumn="5" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="79" endline="81" begincolumn="13" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="tesetResetBoard" variable="initialStones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'initialStones' (lines '79'-'81').
+</violation>
+<violation beginline="79" endline="95" begincolumn="13" endcolumn="29" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="tesetResetBoard" variable="initialStones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'initialStones' (lines '79'-'95').
+</violation>
+<violation beginline="79" endline="79" begincolumn="29" endcolumn="29" rule="UnusedAssignment" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'initialStones' is never used (overwritten on line 81)
+</violation>
+<violation beginline="81" endline="81" begincolumn="29" endcolumn="66" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="81" endline="81" begincolumn="29" endcolumn="66" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="82" endline="82" begincolumn="13" endcolumn="24" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="85" endline="88" begincolumn="13" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="tesetResetBoard" variable="stones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'stones' (lines '85'-'88').
+</violation>
+<violation beginline="85" endline="95" begincolumn="13" endcolumn="22" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="tesetResetBoard" variable="stones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'stones' (lines '85'-'95').
+</violation>
+<violation beginline="85" endline="85" begincolumn="22" endcolumn="22" rule="UnusedAssignment" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'stones' is never used (overwritten on line 88)
+</violation>
+<violation beginline="86" endline="92" begincolumn="13" endcolumn="69" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="tesetResetBoard" variable="mancalaStones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'mancalaStones' (lines '86'-'92').
+</violation>
+<violation beginline="86" endline="95" begincolumn="13" endcolumn="29" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="tesetResetBoard" variable="mancalaStones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'mancalaStones' (lines '86'-'95').
+</violation>
+<violation beginline="86" endline="86" begincolumn="29" endcolumn="29" rule="UnusedAssignment" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'mancalaStones' is never used (overwritten on line 92)
+</violation>
+<violation beginline="88" endline="88" begincolumn="22" endcolumn="59" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="88" endline="88" begincolumn="22" endcolumn="59" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="89" endline="89" begincolumn="13" endcolumn="24" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="92" endline="92" begincolumn="29" endcolumn="69" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="92" endline="92" begincolumn="29" endcolumn="69" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="93" endline="93" begincolumn="13" endcolumn="24" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="tesetResetBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="98" endline="110" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="98" endline="110" begincolumn="12" endcolumn="5" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="99" endline="99" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testRegisterPlayers" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'playerOne' could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testRegisterPlayers" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'playerTwo' could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="102" endline="102" begincolumn="33" endcolumn="67" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="102" endline="102" begincolumn="33" endcolumn="67" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="103" endline="103" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="103" endline="103" begincolumn="33" endcolumn="67" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="103" endline="103" begincolumn="33" endcolumn="67" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="105" endline="105" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="105" endline="105" begincolumn="22" endcolumn="45" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="106" endline="106" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="106" endline="106" begincolumn="22" endcolumn="45" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="108" endline="108" begincolumn="9" endcolumn="21" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="109" endline="109" begincolumn="9" endcolumn="21" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testRegisterPlayers" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="113" endline="121" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testCaptureStones" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="115" endline="115" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testCaptureStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'playerOne' could be declared final
+</violation>
+<violation beginline="116" endline="116" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testCaptureStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'currentPlayer' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="9" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testCaptureStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stoppingPoint' could be declared final
+</violation>
+<violation beginline="119" endline="119" begincolumn="9" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testCaptureStones" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'capturedStones' could be declared final
+</violation>
+<violation beginline="124" endline="131" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="124" endline="131" begincolumn="12" endcolumn="5" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="125" endline="125" begincolumn="13" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" variable="startingPoint" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'startingPoint'.
+</violation>
+<violation beginline="125" endline="131" begincolumn="13" endcolumn="29" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" variable="startingPoint" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'startingPoint' (lines '125'-'131').
+</violation>
+<violation beginline="125" endline="125" begincolumn="9" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'startingPoint' could be declared final
+</violation>
+<violation beginline="126" endline="126" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesDistributed' could be declared final
+</violation>
+<violation beginline="127" endline="127" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="129" endline="129" begincolumn="9" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesAtNextIndex' could be declared final
+</violation>
+<violation beginline="129" endline="129" begincolumn="33" endcolumn="70" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="129" endline="129" begincolumn="33" endcolumn="70" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="130" endline="130" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesForEmptyBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="134" endline="143" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="134" endline="143" begincolumn="12" endcolumn="5" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="136" endline="136" begincolumn="13" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" variable="startingPoint" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'startingPoint'.
+</violation>
+<violation beginline="136" endline="143" begincolumn="13" endcolumn="29" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" variable="startingPoint" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'startingPoint' (lines '136'-'143').
+</violation>
+<violation beginline="136" endline="136" begincolumn="9" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'startingPoint' could be declared final
+</violation>
+<violation beginline="137" endline="137" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesDistributed' could be declared final
+</violation>
+<violation beginline="140" endline="140" begincolumn="13" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesCheck' could be declared final
+</violation>
+<violation beginline="140" endline="140" begincolumn="31" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="140" endline="140" begincolumn="31" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="141" endline="141" begincolumn="13" endcolumn="24" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesInitializedBoard" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="146" endline="161" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="146" endline="161" begincolumn="12" endcolumn="5" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="148" endline="148" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'playerOne' could be declared final
+</violation>
+<violation beginline="149" endline="149" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'currentPlayer' could be declared final
+</violation>
+<violation beginline="151" endline="151" begincolumn="9" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'startingPoint' could be declared final
+</violation>
+<violation beginline="152" endline="152" begincolumn="9" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesDistributed' could be declared final
+</violation>
+<violation beginline="154" endline="154" begincolumn="9" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesAtNextPit' could be declared final
+</violation>
+<violation beginline="154" endline="154" begincolumn="31" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="154" endline="154" begincolumn="31" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="155" endline="155" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="156" endline="156" begincolumn="9" endcolumn="80" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesAtStore' could be declared final
+</violation>
+<violation beginline="156" endline="156" begincolumn="29" endcolumn="80" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="156" endline="156" begincolumn="29" endcolumn="80" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="157" endline="157" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="158" endline="158" begincolumn="13" endcolumn="33" rule="LongVariable" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="stonesAtStartingpoint" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like stonesAtStartingpoint
+</violation>
+<violation beginline="158" endline="158" begincolumn="9" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesAtStartingpoint' could be declared final
+</violation>
+<violation beginline="158" endline="158" begincolumn="37" endcolumn="74" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="158" endline="158" begincolumn="37" endcolumn="74" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="159" endline="159" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesReachedStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="164" endline="174" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="164" endline="174" begincolumn="12" endcolumn="5" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="166" endline="166" begincolumn="9" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'startingPoint' could be declared final
+</violation>
+<violation beginline="167" endline="167" begincolumn="9" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesDistributed' could be declared final
+</violation>
+<violation beginline="170" endline="170" begincolumn="13" endcolumn="33" rule="LongVariable" ruleset="Code Style" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" variable="stonesAtStartingpoint" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like stonesAtStartingpoint
+</violation>
+<violation beginline="170" endline="170" begincolumn="9" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesAtStartingpoint' could be declared final
+</violation>
+<violation beginline="170" endline="170" begincolumn="37" endcolumn="74" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="170" endline="170" begincolumn="37" endcolumn="74" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="171" endline="171" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="172" endline="172" begincolumn="9" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'stonesAtNextPit' could be declared final
+</violation>
+<violation beginline="172" endline="172" begincolumn="31" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="172" endline="172" begincolumn="31" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="173" endline="173" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="mancala" class="BoardTest" method="distributeStonesOppositeSide" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="177" endline="184" begincolumn="12" endcolumn="5" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesInvalidPit" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="177" endline="184" begincolumn="12" endcolumn="5" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="mancala" class="BoardTest" method="testDistributeStonesInvalidPit" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="178" endline="184" begincolumn="13" endcolumn="29" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="testDistributeStonesInvalidPit" variable="startingPoint" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'startingPoint' (lines '178'-'184').
+</violation>
+<violation beginline="178" endline="178" begincolumn="9" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesInvalidPit" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'startingPoint' could be declared final
+</violation>
+<violation beginline="181" endline="184" begincolumn="13" endcolumn="31" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="mancala" class="BoardTest" method="testDistributeStonesInvalidPit" variable="startingPoint2" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'startingPoint2' (lines '181'-'184').
+</violation>
+<violation beginline="181" endline="181" begincolumn="9" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="mancala" class="BoardTest" method="testDistributeStonesInvalidPit" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'startingPoint2' could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
